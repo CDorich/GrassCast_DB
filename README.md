@@ -23,7 +23,7 @@ The database can also be directly loaded into R as the data is processed and sav
  The resulting/processed datasets themselves are: 
  (format is the first tab being 'readme' that gives metadata, second tab reflecting the data)
   * ANPP_metadata.xls - annual aboveground net primary productivity (ANPP) data
-  * Raw_ANPP.xls - Temporal biomass measurements that are part of ANPP data sets 
+  * ANPP_raw.xls - Temporal biomass measurements that are part of ANPP data sets 
   * Functional.xls - Species or plant functional group level datasets that comprise NPP. 
   * WeightGain.xls - Cattle weight gain data from grazing experiments. 
   * NDVI.xls - MODIS and AVHRR cumulative growing season NDVI value for sites in the database. 
