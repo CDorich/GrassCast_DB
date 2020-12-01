@@ -1,5 +1,5 @@
 # GrassCast_DB
-Github account for GrassCast DB. Data also found at data.nal.usda.gov/dataset/grasscast-database. 
+Github account for GrassCast DB. Data also found at data.nal.usda.gov/dataset/grasscast-database . 
 Temporary info also found at https://globalviz-chrisdorich.shinyapps.io/grasscast_shiny/ where updates on the data and methods can be found. This website will be brought down in the future though. 
 
 
