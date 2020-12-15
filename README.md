@@ -18,17 +18,22 @@ GrassCast_Global_prep.Rmd is the final preparation script. It utilizes the below
 Output excel files: 
 These are the files that can be downloaded as part of the database. Also found at data.nal.usda.gov/dataset/grasscast-database. 
 The database can also be directly loaded into R as the data is processed and saved in RData files. More info on those access R scripts and the R shiny app will come later.        
-  * GrassCast_Database_v1.xls - excel sheet that outlines basic sites level information and provies a list of availables sites in version 1 of the database.   
+  * GrassCast_sitelist.xls - excel sheet that outlines basic site level information (contact info and meta-data) and provies a list of availables sites in version 1 of the database.   
   
  The resulting/processed datasets themselves are: 
  (format is the first tab being 'readme' that gives metadata, second tab reflecting the data)
-  * ANPP_metadata.xls - annual aboveground net primary productivity (ANPP) data
-  * ANPP_raw.xls - Temporal biomass measurements that are part of ANPP data sets 
-  * Functional.xls - Species or plant functional group level datasets that comprise NPP. 
-  * WeightGain.xls - Cattle weight gain data from grazing experiments. 
-  * NDVI.xls - MODIS and AVHRR cumulative growing season NDVI value for sites in the database. 
+  * ANPP.xls - annual aboveground net primary productivity (ANPP) data. Single ANPP value per site-pasture.        
+  * ANPP_raw.xls - Temporal biomass measurements that are part of ANPP data sets        
+  * Functional.xls - Species or plant functional group level datasets that comprise NPP.          
+  
+  * Cattle_weight_gain.xls - Cattle weight gain data from grazing experiments.       
+  
+  * NDVI.xls - MODIS and AVHRR cumulative growing season (April-October) NDVI value for sites in the database. 
   * NDVI_raw.xls - MODIS AND AVHRR temporal NDVI values for sites in the database. 
-           
+  
+ Still being worked on: 
+  * climate.xls - annual and growing season splits on climate data for the sites.                  
+  * climate_raw.xls - raw daily climate data for the sites.       
            
 -Chris Dorich       
 chris.dorich@colostate.edu 
